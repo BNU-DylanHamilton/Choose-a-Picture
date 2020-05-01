@@ -22,6 +22,10 @@ namespace Choose_a_Picture
             Application.Exit();
         }
 
+        /// <summary>
+        /// Sets the image depending on what 
+        /// is selected within the combo box.
+        /// </summary>
         private void selectImage(object sender, EventArgs e)
         {
             if(choiceComboBox.Text == "King Kong")
